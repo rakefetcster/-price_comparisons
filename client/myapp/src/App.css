@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  padding-top: 3%;
+}
+h1 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+div.box{
+  float: left;
+  margin-left: 8%;
+  padding-top: 5px;
+}
+div.button{
+  float: right;
+  margin-right: 5%;
+  padding-top: 1%;
+  }
+
+div.frameAll{
+  width: 85%;
+  display: inline-flex;
+  padding-top: 4%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+} 
+
+table th {
+  background-color: #ffcc66;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+table tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+table tr:hover td {
+  background-color: #ffedcc;
+}
+table td {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.spinner{
+  margin-top: 100px;
+}
